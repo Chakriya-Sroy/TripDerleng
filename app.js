@@ -1,5 +1,6 @@
 
 let local_id=localStorage.getItem("id")
+console.log(local_id)
 document.addEventListener('DOMContentLoaded',()=>{
     var j=0;
     const id=[]
