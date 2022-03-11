@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     const btn_next=document.querySelector('.thing_to_do .next');
     const btn_back=document.querySelector('.thing_to_do .beck')
     console.log(local_id)
-    fetch("https://chakriya-sroy.github.io/mockjson/db.json")
+    fetch("./data.json")
     .then(res=>res.json())
     .then(info=>{
         for(var i=0;i<info.length;i++){
