@@ -11,7 +11,73 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <style>
+    *{
+        padding: 0;
+        margin:0;
+        box-sizing: border-box;
+    }
+    section{
+        height: 100vh;
+        display: grid;
+        grid-template-rows:70px 1fr;
+        justify-content: center;
+        color: black;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .title{
+        color: black;
+        margin-top: 20px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns:250px 250px 250px;
+        gap: 50px;
+        margin-bottom: 50px;
+    }
+    .item{
+        background-color: antiquewhite;
+        border-radius: 10px;
+        background-position: center;
+        background-size: cover;
+        
+      
+    }
+    .country_name{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .city_name{
+        margin-left: 20px;
+        margin-top: 180px;
+    }
+    h3{
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    .one{
+        background-image: url(img/place-cover/sr.jpg);
+    }
+    .two{
+        background-image: url(img/place-cover/kp.jpg);
+    }
+    .three{
+        background-image: url(./img/place-cover/pp.jpg);
+    }
+    .four{
+        background-image: url(./img/place-cover/ps.jfif);
+    }
+    .five{
+        background-image: url(./img/place-cover/kps.jpg);
+    }
+    .six{
+         background-image: url(./img/place-cover/kep.jpg);
+    }
+</style>
+<script src="./script.js" async></script>
+    
 </head>
 
 <body>
@@ -161,73 +227,6 @@
     <!--How It Work End-->
 </div>
 </body>
-<style>
-    *{
-        padding: 0;
-        margin:0;
-        box-sizing: border-box;
-    }
-    section{
-        height: 100vh;
-        display: grid;
-        grid-template-rows:70px 1fr;
-        justify-content: center;
-        color: black;
-    }
-    h1{
-        font-size: 20px;
-    }
-    .title{
-        color: black;
-        margin-top: 20px;
-    }
-    .container{
-        display: grid;
-        grid-template-columns:250px 250px 250px;
-        gap: 50px;
-        margin-bottom: 50px;
-    }
-    .item{
-        background-color: antiquewhite;
-        border-radius: 10px;
-        background-position: center;
-        background-size: cover;
-        
-      
-    }
-    .country_name{
-        margin-top: 20px;
-        margin-left: 20px;
-    }
-    .city_name{
-        margin-left: 20px;
-        margin-top: 180px;
-    }
-    h3{
-        font-size: 15px;
-        margin-left: 20px;
-    }
-    .one{
-        background-image: url(img/place-cover/sr.jpg);
-    }
-    .two{
-        background-image: url(img/place-cover/kp.jpg);
-    }
-    .three{
-        background-image: url(./img/place-cover/pp.jpg);
-    }
-    .four{
-        background-image: url(./img/place-cover/ps.jfif);
-    }
-    .five{
-        background-image: url(./img/place-cover/kps.jpg);
-    }
-    .six{
-         background-image: url(./img/place-cover/kep.jpg);
-    }
-</style>
-<script src="./script.js" async></script>
-</head>
 <script>
     const btn = document.querySelector("button.mobile-menu-button");
     const menu = document.querySelector(".mobile-menu");
